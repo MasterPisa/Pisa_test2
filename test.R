@@ -19,10 +19,27 @@ library(usethis)
 
 edit_r_environ()
 
+# create project : make sure Git is checked
+# new file script and save it
+# comit the file with git in the environ
+# create personal acess token (PAT) in GITHUB an copy it
+# run Usethis library
+# edit_r_environ()
+# copy your PAT : GITHUB_PAT = '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' and run (you can get the PAT using the main PISA project GITHUB)
+# restart R session 
+# lanch again Usethis library
+# run "use_github(protocol = "https", auth_token = Sys.getenv("GITHUB_PAT"))"
+# you will receive the message : √ Setting active project to 'C:/...
+# say delection to yes
+# you will see your code in your GitHub repository
+
+
 #my token : GITHUB_PAT = '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' 
+# ibtissam token : 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  
+
 use_github(protocol = "https", auth_token = Sys.getenv("GITHUB_PAT"))
 
-#get data directly
+2#get data directly
 #sch_2018 <- read_sav("CY07_MSU_SCH_QQQ.sav")
 #stu_2018 <- read_sav("CY07_MSU_STU_QQQ.sav")
 
