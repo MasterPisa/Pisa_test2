@@ -38,6 +38,7 @@ edit_r_environ()
 # ibtissam token : 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  
 
 use_github(protocol = "https", auth_token = Sys.getenv("GITHUB_PAT"))
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)`
 
 2#get data directly
 #sch_2018 <- read_sav("CY07_MSU_SCH_QQQ.sav")
