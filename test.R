@@ -32,6 +32,7 @@ edit_r_environ()
 # you will receive the message : √ Setting active project to 'C:/...
 # say delection to yes
 # you will see your code in your GitHub repository
+# make change comit and push
 
 
 #my token : GITHUB_PAT = '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' 
